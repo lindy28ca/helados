@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HogroControler : Moustro
+public class HogroControler : Monstruo
 {
     Rigidbody2D _rigidbody2D;
     BoxCollider2D _boxcollider2D;

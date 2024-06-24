@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Moustro : MonoBehaviour
+public class Monstruo : MonoBehaviour
 {
-    protected Rigidbody2D Moustros;
+    protected Rigidbody2D Monstruos;
     protected float Posicion;
     protected Vector2 Direccion()
     {
