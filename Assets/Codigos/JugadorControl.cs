@@ -21,6 +21,7 @@ public class JugadorControl : MonoBehaviour
     }
     private void FixedUpdate()
     {
+
        if(vertical == 0)
         {
             helado.velocity=new Vector2(horizontal*velocidad, 0);
