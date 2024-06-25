@@ -7,11 +7,21 @@ using UnityEngine.UI;
 public class gamemanagercontrol : MonoBehaviour
 {
     public puntoscontrol puntoscontrol;
-    float puntos=0;
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
     public void Aumentar(float puntitos)
     {
-        puntos = puntos+ puntitos;
-        puntoscontrol.maspuntos(puntos);
+        puntoscontrol.maspuntos(puntitos);
+    }
+    public void Pausar()
+    {
+        Time.timeScale = 0;
+    }
+    public void Continuar()
+    {
+        Time.timeScale = 1;
     }
 
 }
