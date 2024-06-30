@@ -6,6 +6,8 @@ TagManager:
   tags:
   - enemigo
   - fruta
+  - IceCube
+  - zandia
   layers:
   - Default
   - TransparentFX

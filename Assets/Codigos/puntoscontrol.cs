@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class puntoscontrol : MonoBehaviour
 {
-    float puntitos = 0;
+    public float puntitos = 0;
     Text texito;
     private void Awake()
     {
